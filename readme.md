@@ -86,3 +86,11 @@ CESIUM/
 - README created
 - Planning system architecture
 - Preparing GitHub setup
+
+
+### Day 2
+- intialize the globe
+- start working on the coordinate search bar
+- establish the fly to method for every location searched in the coordinate bar
+
+
