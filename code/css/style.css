@@ -21,7 +21,7 @@ html, body, #cesiumContainer {
 /* Add a black background color to the top navigation bar */
 .coordinateBar {
     position: absolute;
-    top: 1px;
+    top: 20px;
     left: 150px;
     z-index: 1000;
     overflow: hidden;

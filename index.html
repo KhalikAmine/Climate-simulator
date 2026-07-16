@@ -18,6 +18,16 @@
     // Initialize the Cesium Viewer in the HTML element with the `cesiumContainer` ID.
     const viewer = new Cesium.Viewer('cesiumContainer', {
       terrain: Cesium.Terrain.fromWorldTerrain(),
+      animation: false,
+      clock: false, 
+      baseLayerPicker: false, 
+      creditDisplay: false,
+      navigationHelpButton: false,
+      homeButton: false,
+      geocoder: false, 
+      projectionPicker: false, 
+      timeline: false, 
+      sceneModePicker: false,
     });    
 
     // start the application on the globe
