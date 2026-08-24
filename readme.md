@@ -91,6 +91,10 @@ CESIUM/
 ### Day 2
 - intialize the globe
 - start working on the coordinate search bar
-- establish the fly to method for every location searched in the coordinate bar
+
+### Day 3
+- Remove the widgets from the cesium interface to make it look more clean and minimal
+- Build the toggle down naviagtion bar
+
 
 

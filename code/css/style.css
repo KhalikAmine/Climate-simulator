@@ -77,4 +77,50 @@ html, body, #cesiumContainer {
 }
 
 
+/* Toggle Down Navigation Bar */
+
+/* Importing Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding-top: 0;
+  background: linear-gradient(#F1FAFF, #CBE4FF);
+  
+}
+
+.sidebar {
+  width: 145px;
+  position: fixed;
+  margin: 6px;
+  border-radius: 16px;
+  background: #151a2d;
+  height: calc(40vh);
+
+  top: 180px;
+  left: 10px;
+  z-index: 100;
+
+}
+
+.sidebar-header {
+  display: flex;
+  padding: 25px 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sidebar-nav .nav-link {
+  color: #fff;
+  text-decoration: none;
+}
 
